@@ -1,5 +1,5 @@
 import React from 'react';
-import { useGameStore } from '../game/state/store';
+import { useGameStore } from '../game/state/store.ts';
 import { Play, Home, RotateCcw, Settings, Volume2, VolumeX } from 'lucide-react';
 
 const PauseDialog: React.FC = () => {

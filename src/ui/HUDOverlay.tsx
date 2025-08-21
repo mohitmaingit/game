@@ -1,5 +1,5 @@
 import React from 'react';
-import { useGameStore } from '../game/state/store';
+import { useGameStore } from '../game/state/store.ts';
 import { Coins, Star, Trophy, Brain, Target, Settings } from 'lucide-react';
 
 const HUDOverlay: React.FC = () => {

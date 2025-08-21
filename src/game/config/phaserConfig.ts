@@ -4,7 +4,7 @@ import MenuScene from '../scenes/MenuScene';
 import WorldScene from '../scenes/WorldScene';
 import HUDScene from '../scenes/HUDScene';
 import QuestionScene from '../scenes/QuestionScene';
-import PauseScene from '../scenes/PauseScene';
+import PauseScene from '../scenes/PauseScene.ts';
 import ResultScene from '../scenes/ResultScene';
 
 export const phaserConfig: Phaser.Types.Core.GameConfig = {

@@ -1,7 +1,7 @@
 import Phaser from 'phaser';
 import { GAME_CONFIG } from '../config/constants';
 import { useGameStore } from '../state/store';
-import { getCurrentLevel, getNextLevel } from '../config/levels';
+import { getCurrentLevel, getNextLevel } from '../config/levels.ts';
 
 export default class ResultScene extends Phaser.Scene {
   private gameStore: any;

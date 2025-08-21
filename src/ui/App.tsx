@@ -4,7 +4,7 @@ import { phaserConfig } from '../game/config/phaserConfig';
 import HUDOverlay from './HUDOverlay';
 import PauseDialog from './PauseDialog';
 import SettingsPanel from './SettingsPanel';
-import { useGameStore } from '../game/state/store';
+import { useGameStore } from '../game/state/store.ts';
 
 function App() {
   const gameRef = useRef<Phaser.Game | null>(null);
